@@ -10,6 +10,7 @@
     --accent-color: #353430;
     --background-color: #FFF1F7;
     --title-decor: #FF8DCB;
+    --rec-color: var(--accent-color);
     --color-article-title: var(--accent-color);
     --section-color-title: var(--accent-color);
     --angle-color: var(--main-color-text);
@@ -26,6 +27,7 @@
     --accent-color: #353430;
     --background-color: #FFF1F7;
     --title-decor: #FF8DCB;
+    --rec-color: var(--accent-color);
     --color-article-title: var(--accent-color);
     --section-color-title: var(--accent-color);
     --angle-color: var(--main-color-text);
@@ -36,6 +38,6 @@
   }
 }
 
-.page.theme_light .header__rec {
+/*.page.theme_light .header__rec {
   display: none;
-}
+}*/
