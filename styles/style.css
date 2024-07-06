@@ -31,7 +31,6 @@
   position: absolute;
   background-color: var(--rec-color);
   border-radius: 50%;
-  background-color: var(--rec-color);
   box-shadow: 0 0 4px 2px var(--rec-color);
   width: 9px;
   height: 9px;
@@ -106,6 +105,7 @@
 }
 
 .header__theme-menu-button_active {
+  pointer-events: none;
   border: 1px solid;
 }
 
@@ -238,8 +238,8 @@
   color: var(--color-article-title);
 }
 
-.section__article-title_regular {
-  font-weight: 400;
+.section__article-title-not-bold {
+  font-weight: normal;
 }
 
 .section__article-text-link {

@@ -19,6 +19,23 @@
     --hover-color: 1px solid rgb(50, 49, 45, 0.4);
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-color-text: #353430;
+    --color-title: #FFC2E6;
+    --accent-color: #353430;
+    --background-color: #FFF1F7;
+    --title-decor: #FF8DCB;
+    --color-article-title: var(--accent-color);
+    --section-color-title: var(--accent-color);
+    --angle-color: var(--main-color-text);
+    --shadow: var(--title-decor);
+    --border-color: var(--accent-color);
+    --background-image: url(../images/cover-image-light.png);
+    --hover-color: 1px solid rgb(50, 49, 45, 0.4);
+  }
+}
+
 .page.theme_light .header__rec {
   display: none;
 }
