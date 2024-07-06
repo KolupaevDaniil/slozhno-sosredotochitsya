@@ -66,7 +66,7 @@
 .header__theme-menu-list {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 13px;
 }
 
 @media (width < 1024px) {
@@ -180,14 +180,14 @@
   flex-basis: auto;
   padding: 0 20px;
   margin: 60px 0;
-  gap: 80px;
+  gap: 82px;
 }
 
 @media (width < 768px) and (width >= 375px) {
   .main {
     padding: 0 10px;
     margin: 34px 0;
-    gap: 50px;
+    gap: 52px;
   }
 }
 
