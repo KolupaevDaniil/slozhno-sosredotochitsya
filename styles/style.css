@@ -180,7 +180,7 @@
   flex-basis: auto;
   padding: 0 20px;
   margin: 60px 0;
-  gap: 82px;
+  gap: 81px;
 }
 
 @media (width < 768px) and (width >= 375px) {
