@@ -224,6 +224,10 @@
   width: 32%;
 }
 
+.section:nth-of-type(2) .section__title {
+  width: 30%;
+}
+
 .section:last-of-type {
   display: grid;
 }
@@ -309,10 +313,6 @@
   .section:first-of-type .section__article-list,
   .section:nth-of-type(3) .section__article-list {
     width: 100%;
-  }
-
-  .section:nth-of-type(2) .section__title {
-    width: 30%;
   }
 
   .section:nth-of-type(2) .section__title {
