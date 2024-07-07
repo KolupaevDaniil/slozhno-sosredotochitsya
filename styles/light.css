@@ -5,7 +5,7 @@
 */
 
 .page.theme_light {
-  --main-color-text: #353430;
+    --main-color-text: #353430;
     --color-title: #FFC2E6;
     --accent-color: #353430;
     --background-color: #FFF1F7;
@@ -16,6 +16,7 @@
     --angle-color: var(--main-color-text);
     --shadow: var(--title-decor);
     --border-color: var(--accent-color);
+    --border-color-link: var(--main-color-text);
     --background-image: url(../images/cover-image-light.png);
     --hover-color: 1px solid rgb(50, 49, 45, 0.4);
 }

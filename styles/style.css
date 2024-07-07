@@ -92,7 +92,7 @@
 }
 
 .header__theme-menu-button:focus {
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: none;
 }
 
 .header__theme-menu-button:focus-visible {
@@ -181,15 +181,15 @@
 }
 
 .section__article-text-link:hover {
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color-link);
 }
 
 .section__article-text-link:focus {
-  outline: 1px solid var(--border-color);
+  outline: 1px solid var(--border-color-link);
 }
 
 .section__article-text-link:focus-visible {
-  outline: 1px solid var(--border-color);
+  outline: 1px solid var(--border-color-link);
 }
 
 .section:first-of-type,

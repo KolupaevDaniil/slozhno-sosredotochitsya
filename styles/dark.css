@@ -14,6 +14,7 @@
   --rec-color: var(--accent-color);
   --shadow: var(--accent-color);
   --border-color: var(--accent-color);
+  --border-color-link: var(--main-color-text);
   --background-image: url(../images/cover-image-dark.png);
-  --hover-color: 1px solid rgb(255, 0, 112, 0.4);
+  --hover-color: 1px solid rgba(134, 18, 69, 0.4);
 }
